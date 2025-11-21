@@ -6,13 +6,7 @@
   tasks:
   
     - name: Perform initial action
-      debug:
-        msg: "Starting tasks..."
-    
-    - name: Wait for 10 minutes (600 seconds)
-      wait_for:
-        timeout: 600
-      delegate_to: localhost
+      ansible.built.command: sleep 600
 
         
         
