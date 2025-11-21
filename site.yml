@@ -11,7 +11,7 @@
     
     - name: Wait for 10 minutes (600 seconds)
       wait_for:
-        timeout: 600
+        timeout: 6000
       delegate_to: localhost
 
         
