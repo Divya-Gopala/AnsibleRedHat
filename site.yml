@@ -1,6 +1,6 @@
 ---
 - name: Example playbook with 10-minute wait time
-  hosts: all
+  hosts: localhost
   become: yes
 
   tasks:
